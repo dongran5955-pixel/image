@@ -18,6 +18,11 @@ const categories = [
     id: "illustration",
     name: "插画",
     sub: ["黏土", "多巴胺", "夸张", "扁平", "情景故事", "3D", "治愈"]
+  },
+  {
+    id: "ip",
+    name: "IP",
+    sub: ["卡通IP"]
   }
 ];
 
@@ -33,6 +38,7 @@ const homeSections = [
   { cat: "app", sub: "空状态" },
   { cat: "illustration", sub: "黏土" },
   { cat: "illustration", sub: "夸张" },
+  { cat: "ip", sub: "卡通IP" },
   { cat: "ops", sub: "KV海报" },
   { cat: "app" }
 ];
@@ -41,7 +47,8 @@ const categoryIntros = {
   app: "覆盖图标、启动页、功能图和应用截图，适合移动产品的视觉起稿。",
   ops: "3D 海报和 KV 海报，帮助快速找到运营设计方向。",
   poster: "电影海报、拼贴海报、艺术海报、渐变艺术与科技海报，提供更有情绪的画面参考。",
-  illustration: "黏土、多巴胺、夸张、扁平、3D 和情景故事插画，适合产品介绍与品牌表达。"
+  illustration: "黏土、多巴胺、夸张、扁平、3D 和情景故事插画，适合产品介绍与品牌表达。",
+  ip: "卡通 IP 形象与多角度设定稿，适合品牌吉祥物与周边视觉起稿。"
 };
 
 const items = [
@@ -764,6 +771,30 @@ const items = [
     ratio: "3 / 4",
     prompt:
       "A complete single 3D illustration, exaggerated artistic editorial illustration style, not storyboard, not a collage layout.\n\nThe subject is an exaggerated cartoon character with a tiny head, round chubby body, extremely elongated limbs, oversized hands and oversized shoes, off-balance center of gravity, frozen mid-air in a dramatic jumping pose, with strong tension and comedic energy.\n\nOverall form looks like a soft sculpture toy — round, chunky, bouncy, exaggerated — not anatomically correct.\n\nMaterials are matte soft rubber, fuzzy fabric, knitted texture, plasticine feel, with fine fiber details, slight grain, hand-sculpted touch — avoid glossy plastic toy look, avoid translucent glass look, avoid high reflections.\n\nHigh-saturation dopamine color palette, bold color clashes, large flat color blocks, bright but not over-glowing.\n\nClean white background, minimal space, only a soft oval shadow on the ground, no complex scene.\n\nFloating abstract graphic elements around the character: stars, squiggle lines, balls, cubes, icons, symbols — all rendered as soft rubber or paper props to enhance motion and design feel.\n\nSoft studio lighting, global illumination, soft shadows, low contrast, clean commercial render.\n\nC4D / Blender 3D illustration, stylized soft sculpture, matte clay material, fuzzy fabric texture, knitted surface detail, playful editorial 3D illustration, high quality.\n\n— Theme: a young guy mid-leap walking his happy beagle on a leash, weekend dog walk vibe"
+  },
+  {
+    image: "./assets/ip/cartoon-ip/ip-cartoon-zazi.webp",
+    cat: "ip",
+    sub: "卡通IP",
+    ratio: "2 / 3",
+    prompt:
+      "Create an image: a professional cartoon IP character design sheet, portrait layout 2:3. Bold white logotype \"ZAZI\" top-left on a saturated purple hero panel plus short English personality blurb below. Upper area: hero 3D render of a playful rounded purple cartoon dragon toy — small yellow horns, big round black eyes, tiny smile with one tooth, cream ribbed belly, yellow scarf with star charm, small wings, waving pose; soft matte PVC / vinyl toy shading, Behance mascot quality. Lower \"Multiview\" band on white: four turnaround renders (front, side, back, three-quarter) consistent proportions, toy-like collectible style. Unified lighting, ultra clean composition, exhibition-grade portfolio sheet."
+  },
+  {
+    image: "./assets/ip/cartoon-ip/ip-cartoon-moko.webp",
+    cat: "ip",
+    sub: "卡通IP",
+    ratio: "2 / 3",
+    prompt:
+      "Create an image: cartoon IP mascot design sheet, 2:3 vertical. Vibrant flat green hero block with oversized white headline \"MOKO\" and short English biography text underneath. Upper 3D hero close-up — soft pastel green elephant with round ears and tiny eyes, wearing cream straw sun hat with leaf badge and matching cross-body pouch; cuddly plush / vinyl toy rendering, cheerful modern branding. Bottom white section labeled \"Multiview\": four poses (front, left profile, back, mirrored three-quarter) showing hat, strap, ears and tail continuity. Cohesive toy-scale proportions, crisp studio renders, mascot brand-book layout."
+  },
+  {
+    image: "./assets/ip/cartoon-ip/ip-cartoon-nana.webp",
+    cat: "ip",
+    sub: "卡通IP",
+    ratio: "2 / 3",
+    prompt:
+      "Create an image: cartoon rhino IP character bible page, 2:3 portrait. Sunny yellow rounded-corner hero backdrop; large bold black sans name \"NaNa\" with tagline beneath in English describing a curious gentle rhino. Big upper-body 3D render — cheerful yellow matte rhino, single cream horn stub, round black glossy eyes. Lower \"Multiview\" row on white showing four turnaround full-body thumbnails (front, side, back, three-quarter) with belly cream oval patch and short tail; consistent collectible figure style, polished C4D/Blender look, minimalist layout."
   }
 ];
 
@@ -879,7 +910,7 @@ function renderHome() {
   grid.innerHTML = `
     <section class="home-hero" aria-labelledby="homeTitle">
       <h1 id="homeTitle">给互联网设计师的 AI 图片提示词灵感库</h1>
-      <p>覆盖 APP、运营、海报与插画等设计场景，每张图都配有可直接复制的 AI 提示词，让灵感随取随用，全部由 image2 完成</p>
+      <p>覆盖 APP、运营、海报、插画与 IP 等设计场景，每张图都配有可直接复制的 AI 提示词，让灵感随取随用，全部由 image2 完成</p>
     </section>
     <div class="home-sections">
       ${homeSections
