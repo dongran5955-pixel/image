@@ -794,7 +794,7 @@ const items = [
     sub: "卡通IP",
     ratio: "2 / 3",
     prompt:
-      "Create an image: cartoon rhino IP character bible page, 2:3 portrait. Sunny yellow rounded-corner hero backdrop; large bold black sans name \"NaNa\" with tagline beneath in English describing a curious gentle rhino. Big upper-body 3D render — cheerful yellow matte rhino, single cream horn stub, round black glossy eyes. Lower \"Multiview\" row on white showing four turnaround full-body thumbnails (front, side, back, three-quarter) with belly cream oval patch and short tail; consistent collectible figure style, polished C4D/Blender look, minimalist layout."
+      "生成一张国际3D IP 设计大师做的IP 竖版 2:3 的图片\n\n【角色基础设定】\n角色名称：NaNa\n形象描述：犀牛\n品牌主色：明黄色（高饱和度、活泼醒目，可与浅米色犄角/肚皮作低对比点缀）\n\n【造型结构】\n3D盲盒潮玩IP风格，头身比约1:1，头部圆润夸张，\nIP整体设计有夸张感，独特感，现代感，\n躯干饱满呈蛋形，四肢短促圆柱状，线条简洁流畅。\n面部特征极简，大号圆形眼睛，表情克制呆萌。\n全身哑光磨砂软胶质感，无高光无反射，\n配色控制在2-3色，局部色与主体色保持低对比度和谐关系。\n柔和摄影棚散射光，无强投影，商业产品级渲染精度。\n\n【整体版式】\n竖版白色为基础底色，\n2个区块上下堆叠排列，\n整体风格干净专业，类似潮玩品牌官方角色设定发布页。\n\n区块一——Hero Banner（占总高约60%）：\n背景填充品牌主色（与角色主体颜色一致的饱和色块），\n左上角放置角色英文名，粗体大字，白色或深色，\n名称下方配2-3行小字角色简介，字体轻盈，\n右侧呈现角色上半身或四分之三视角特写，\n角色体积占Banner右侧60%以上，底部自然溢出Banner边界，\n形成裁切感构图，氛围活泼。\n\n区块二——多视图（占总高约40%）：\n浅灰色或白色圆角矩形卡片，卡片有细描边，\n卡片顶部左对齐放置\"Multiview\"英文标题，\n卡片内横向等距排列四个角色视图，\n从左到右依次为正视图、侧视图、后视图、45°视图，\n四个角色等比例、等高度、纯白底，无阴影。"
   }
 ];
 
