@@ -542,6 +542,30 @@ const items = [
       "Swiss International style, modern minimalist flat vector poster, 9:16 aspect ratio, diagonal sliced layout. Top-left: Traditional Chinese title in serif type paired with elegant connected script serif English. Bottom-right: core symbolic graphic for the poster — abstract flat vector illustration, fluorescent color gradients, subtle grain noise, decorative pixel icons, contemporary cultural festival poster, modern design exhibition quality. Theme: Summer Bubble Lab. 4K."
   },
   {
+    image: "./assets/posters/tech/ai-programming-competition-2024.webp",
+    cat: "poster",
+    sub: "科技海报",
+    ratio: "9 / 16",
+    prompt:
+      "Create an image. International top-tier tech event poster, 9:16 vertical, deep black background, generous negative space. Futuristic 3D glass hero: glowing cube flanked by code brackets, neon blue and purple gradient lighting, C4D / Octane frosted-glass quality. Bold title: AI Programming Competition with gradient AI wordmark; tagline: Code the future. Intelligent solutions. Footer row: calendar June 21–23 2024, globe Online Worldwide, trophy Total Prize Pool $100,000+; purple outlined Register Now pill CTA."
+  },
+  {
+    image: "./assets/posters/tech/beijing-ai-coding-competition.webp",
+    cat: "poster",
+    sub: "科技海报",
+    ratio: "9 / 16",
+    prompt:
+      "Create an image. Beijing AI coding competition poster, 9:16 vertical, pure black background, neon blue and purple glow. Hero: large Chinese title 北京AI 编码大赛, subtitle 智能·创新·突破. Center: translucent 3D code symbol </> above glowing wireframe Temple of Heaven and futuristic Beijing skyline on a circular tiered pedestal. Bottom: four icon columns — AI geek challenge rocket trophy with Chinese microcopy; CTA pill 即将开启; footer 2024.06 敬请期待."
+  },
+  {
+    image: "./assets/posters/tech/developer-code-supercharged.webp",
+    cat: "poster",
+    sub: "科技海报",
+    ratio: "9 / 16",
+    prompt:
+      "Create an image. International tech product launch poster, 9:16 vertical, minimalist deep black background. Premium 3D frosted glass hexagon hero enclosing glass code glyphs </>; subtle purple-blue edge highlights. Centered typography: Super / Developer metallic gradient headline; grey tagline Your code. Supercharged.; small monospace LAUNCHING 2024.06.06 with soft blue-purple glow; tiny terminal glyph badge at bottom. Apple / Linear / Notion-adjacent restraint."
+  },
+  {
     image: "./assets/posters/tech/super-developer-launch.webp",
     cat: "poster",
     sub: "科技海报",
