@@ -1,12 +1,45 @@
 {
-  "name": "image2",
+  "name": "image2-desktop",
   "version": "1.0.0",
+  "description": "董哥 AI 图片提示词灵感库 Windows 桌面版",
   "private": true,
   "type": "module",
+  "main": "desktop/main.cjs",
   "scripts": {
-    "compress:images": "node scripts/compress-images.mjs"
+    "compress:images": "node scripts/compress-images.mjs",
+    "desktop": "electron .",
+    "dist:win": "electron-builder --win portable --x64"
   },
   "devDependencies": {
+    "electron": "^35.5.1",
+    "electron-builder": "^26.0.12",
     "sharp": "^0.34.5"
+  },
+  "build": {
+    "appId": "com.dongge.imagehub",
+    "productName": "Dongge AI Image Hub",
+    "copyright": "Copyright © 2026 Dongge",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "index.html",
+      "src/**/*",
+      "assets/**/*",
+      "desktop/**/*",
+      "package.json"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "portable",
+          "arch": ["x64"]
+        }
+      ],
+      "artifactName": "Dongge-AI-Image-Hub-Portable-${version}.${ext}"
+    },
+    "portable": {
+      "artifactName": "Dongge-AI-Image-Hub-Portable-${version}.${ext}"
+    }
   }
 }
